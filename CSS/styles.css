@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 12px Arial;
+}
+
+header {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+  padding: 45px;
+  text-align: center;
+  color: #fff;
+  font-size: 250%;
+}
+
+.menu {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+  list-style: none;
+  padding: 12px;
+  margin: 0;
+  background-color: #11388b;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px;
+}
+
+.menu li {
+  box-shadow: -5px -5px 10px #849aa1, 5px 5px 10px #9eb8c1;
+  width: 15%; /* Distribute menu items equally */
+  border-radius: 8px;
+}
+
+.menu li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: orangered;
+  border-radius: 10px;
+}
+
+.menu .sousmenu {
+  font-weight: 800;
+  list-style-type: circle;
+  display: none;
+  position: absolute;
+}
+
+.menu .sousmenu li {
+  float: none;
+  width: 100%;
+}
+
+.menu .sousmenu li a {
+  padding: 7px;
+  text-align: center;
+}
+
+.menu li:hover .sousmenu {
+  display: block;
+  width: 15%;
+}
+
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.footer {
+  background-color: #5372b4;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

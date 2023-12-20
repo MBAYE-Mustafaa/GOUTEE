@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Votre avis compte !</title>
+    <link rel="icon" type="image/x-icon" href="assets/Contact.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/Style_Contact.css" rel="stylesheet" />
+    <style>
+        #savedData {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu" id="menu">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="propos.html">A propos</a></li>
+        <li><a href="#">Conquête de l'infini</a>
+            <ul class="sousmenu">
+                <li><a href="La Conquete/Origine.html">Origine</a></li>
+                <li><a href="La Conquete/chronologie.html">Chronologie</a></li>
+                <li><a href="La Conquete/cartographie.html">Cartographie</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Etude des Points de Vue</a>
+            <ul class="sousmenu">
+                <li><a href="Etudes des Points de vue/pro.html">Arguments Pro</a></li>
+                <li><a href="Etudes des Points de vue/contre.html">Arguments Con</a></li>
+                <li><a href="Etudes des Points de vue/entretiens.html">Entretiens</a></li>
+            </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="bibliographie.html">Bibliographie</a></li>
+    </ul>
+    <header>
+        <h2 class="header-title">La conquête spatiale, alliée ou ennemie de la planète ?</h2>
+    </header>
+    <div class="form-container">
+        <form onsubmit="return saveAndDisplayData()">
+            <input type="text" placeholder="Nom" id="name" autocomplete="off">  
+            <input type="email" placeholder="Adresse mail" id="email" autocomplete="off">
+            <input type="text" placeholder="Sujet" id="subject" autocomplete="off">   
+            <textarea placeholder="Message" id="message" cols="30" rows="10"></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+    <div id="savedData"></div>
+    <video autoplay loop muted plays-inline class="video">
+        <source src="assets/Trajectory histoire de la conquête spatiale Documentaire.mp4" type="video/mp4">
+    </video>
+    <script>
+        function saveAndDisplayData() {
+            var name = document.getElementById('name').value;
+            var message = document.getElementById('message').value;
+            
+            // Créer un élément div pour afficher les données
+            var dataDiv = document.createElement('div');
+            dataDiv.innerHTML = '<strong>' + name + ':</strong> ' + message;
+
+            // Ajouter l'élément div à la section d'affichage des données
+            document.getElementById('savedData').appendChild(dataDiv);
+
+            // Réinitialiser le formulaire
+            document.querySelector('form').reset();
+
+            // Empêcher la soumission normale du formulaire
+            return false;
+        }
+    </script>
+   
+
+
+</body>
+</html>

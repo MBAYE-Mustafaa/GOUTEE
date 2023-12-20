@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>GOUTEE 2023 - Controverses sur la Conquête Spatiale</title>
+    <link rel="icon" type="image/x-icon" href="#" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="CSS/styles.css" rel="stylesheet" />
+</head>
+<body>
+    
+<ul class="menu" id="menu">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="propos.html">A propos</a></li>
+    <li><a href="#">Conquête de l'infini</a>
+        <ul class="sousmenu">
+            <li><a href="La Conquete/Origine.html">Origine</a></li>
+            <li><a href="La Conquete/chronologie.html">Chronologie</a></li>
+            <li><a href="La Conquete/cartographie.html">Cartographie</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Etude des Points de Vue</a>
+        <ul class="sousmenu">
+            <li><a href="Etudes des Points de vue/pro.html">Arguments Pro</a></li>
+            <li><a href="Etudes des Points de vue/contre.html">Arguments Con</a></li>
+            <li><a href="Etudes des Points de vue/entretiens.html">Entretiens</a></li>
+        </ul>
+    </li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="bibliographie.html">Bibliographie</a></li>
+</ul>
+<header>
+    <h2 style="font-family: 'Bangers', cursive;">La conquête spatiale, alliée ou ennemie de la planète ?</h2>
+</header>
+
+<video autoplay loop muted plays-inline class="video">
+    <source src="assets/Trajectory histoire de la conquête spatiale Documentaire.mp4" type="video/mp4">
+</video>
+
+<!-- Content goes here -->
+
+<footer class="footer">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-auto">
+                <div class="small m-0"> MBAYE Moustapha</div>
+            </div>
+            <div class="col-auto">
+                <span class="mx-1">&middot;</span>
+                <a class="small" href="mailto:moustapha.mbaye@imt-atlantique.net">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+    // Ajout de code JavaScript pour le menu déroulant
+    document.addEventListener('DOMContentLoaded', function () {
+        const menu = document.getElementById('menu');
+        const sousmenus = menu.getElementsByClassName('sousmenu');
+
+        for (const sousmenu of sousmenus) {
+            const parent = sousmenu.parentNode;
+            parent.addEventListener('mouseover', function () {
+                sousmenu.style.display = 'block';
+            });
+
+            parent.addEventListener('mouseout', function () {
+                sousmenu.style.display = 'none';
+            });
+        }
+    });
+</script>
+
+</body>
+</html>
