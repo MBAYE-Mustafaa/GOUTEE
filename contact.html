@@ -11,32 +11,44 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
+    
     <link href="css/Style_Contact.css" rel="stylesheet" />
     <style>
-        #savedData {
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-        }
+        .background-image {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 1; /* Ajustez l'opacité selon vos préférences */
+    background-image: url('assets/Tofstyle.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
     </style>
 </head>
 <body>
+    <div class="background-image"></div>
+
     <ul class="menu" id="menu">
         <li><a href="index.html">Accueil</a></li>
         <li><a href="propos.html">A propos</a></li>
         <li><a href="#">Conquête de l'infini</a>
             <ul class="sousmenu">
-                <li><a href="La Conquete/Origine.html">Origine</a></li>
+                <li><a href="La Conquete/Origine.html">Contextualisation</a></li>
                 <li><a href="La Conquete/chronologie.html">Chronologie</a></li>
                 <li><a href="La Conquete/cartographie.html">Cartographie</a></li>
             </ul>
         </li>
         <li><a href="#">Etude des Points de Vue</a>
             <ul class="sousmenu">
-                <li><a href="Etudes des Points de vue/pro.html">Arguments Pro</a></li>
-                <li><a href="Etudes des Points de vue/contre.html">Arguments Con</a></li>
-                <li><a href="Etudes des Points de vue/entretiens.html">Entretiens</a></li>
+                <li><a href="Etudes des Points de vue/Environnement.html">Aspects Environnementaux</a></li>
+                <li><a href="Etudes des Points de vue/Finance.html">Aspects Financiers</a></li>
+                <li><a href="Etudes des Points de vue/Geopolitique.html">Aspects Géopolitique</a></li>
+                <li><a href="Etudes des Points de vue/entretien.html">Entretiens</a></li>
             </ul>
         </li>
         <li><a href="contact.html">Contact</a></li>
@@ -54,10 +66,8 @@
             <button type="submit">Envoyer</button>
         </form>
     </div>
-    <div id="savedData"></div>
-    <video autoplay loop muted plays-inline class="video">
-        <source src="assets/Trajectory histoire de la conquête spatiale Documentaire.mp4" type="video/mp4">
-    </video>
+
+
     <script>
         function saveAndDisplayData() {
             var name = document.getElementById('name').value;
@@ -77,6 +87,21 @@
             return false;
         }
     </script>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-auto">
+                <div class="small m-0"> Moustapha - João - Guilherme - Tabatha - Evan - Clément - Radouane</div>
+            </div>
+            <div class="col-auto">
+                <span class="mx-1">&middot;</span>
+                <a class="small" href="mailto:moustapha.mbaye@imt-atlantique.net">Contact</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
    
 
 

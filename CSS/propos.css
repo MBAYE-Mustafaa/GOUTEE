@@ -3,9 +3,9 @@ body {
     padding: 0%;
     font: 12px Arial;
     width: 100%;
-    overflow-x: hidden;
+    overflow-x: hidden; 
+    background:grey;
     margin-right: 0px;
-   
   }
   
   header {
@@ -13,7 +13,7 @@ body {
     width: 100%;
     padding: 45px;
     text-align: center;
-    color: #fff;
+    color: orangered;
     font-size: 250%;
   }
   
@@ -23,13 +23,13 @@ body {
     font-weight: bold;
     list-style: none;
     padding: 12px;
-    margin: 0%;
+    margin: 0;
     background-color: #11388b;
     display: flex;
     justify-content: space-around;
     border-radius: 0px;
     margin-left: -0.7%;
-    margin-right: 0%;
+    margin-right: auto;
     width: 100%;
   }
   
@@ -73,54 +73,31 @@ body {
     display: block;
     width: 15%;
   }
-
-.form-container {
-    text-align: center;
-    margin: 50px auto;
-    max-width: 600px;
-    background-color: #fff;
-    padding: 0.1px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    padding:6px;
-}
-
-input,textarea {
-    margin: 6px 0;
-    padding: 6px;
-    width: 100%;
-    outline: none;
-    box-sizing: border-box;
-    border: 2px solid orangered;
-    border-radius: 5px;
-}
-
-button {
-    background-color:#11388b;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: orangered;
-}
-
-.footer {
-    background-color: orangered;
-    color: #fff;
-    text-align: center;
-    padding: 1%;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
   
+  
+  .ekip{
+    float: right;
+    border-radius: 50%;
+    margin:0 30% 50% 0;
+    shape-outside: content-box;
+  }
+  .textEkip{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 155%;
+    color: #fff;
+    line-height: 1.5;
+  }
+  .team{
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 155%;
+    color: #fff;
+    line-height: 1.7;
+    border-color: beige;
+
+  }
