@@ -1,87 +1,101 @@
 body {
-    margin: 0px;
-    padding: 0%;
-    font: 12px Arial;
-    width: 100%;
-    overflow-x: hidden;
-    margin-right: 0px;
+  margin: 0px;
+  padding: 0%;
+  font: 12px Arial;
+  width: 100%;
+  overflow-x: hidden; 
+  background: black;
+  margin-right: 0px;
+}
    
-  }
+header {
+  font-family: Garamond, sans-serif;
+  /*width: 100%;*/
+  padding: 45px;
+  text-align: center;
+  color: floralwhite;
+  font-size: 200%;
+}
   
-  header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100%;
-    padding: 45px;
-    text-align: center;
-    color: #fff;
-    font-size: 250%;
-  }
+
+.menu {
+  font-family: Garamond, sans-serif;
+  font-size: 150%;
+  /*font-weight: bold;*/
+  list-style: none;
+  padding: 12px;
+  margin: 0;
+  /*background-color: black;*/
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px;
+  margin-left: -0.7%;
+  margin-right: auto;
+  width: 100%;
+}
   
-  .menu {
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    font-size: 120%;
-    font-weight: bold;
-    list-style: none;
-    padding: 12px;
-    margin: 0%;
-    background-color: #11388b;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 0px;
-    margin-left: -0.7%;
-    margin-right: 0%;
-    width: 100%;
-  }
-  
-  .menu li {
-    box-shadow: -5px -5px 10px orangered, 5px 5px 10px #9eb8c1;
-    width: 15%; /* Distribute menu items equally */
-    border-radius: 8px;
-  }
-  
-  .menu li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 14px;
-    text-decoration: none;
-  }
-  
-  .menu li a:hover {
-    background-color: orangered;
-    border-radius: 10px;
-  }
-  
-  .menu .sousmenu {
-    font-weight: 800;
-    list-style-type: circle;
-    display: none;
-    position: absolute;
-  }
-  
-  .menu .sousmenu li {
-    float: none;
-    width: 100%;
-  }
-  
-  .menu .sousmenu li a {
-    padding: 7px;
-    text-align: center;
-  }
-  
-  .menu li:hover .sousmenu {
-    display: block;
-    width: 15%;
-  }
+
+.menu li {
+  /*box-shadow: -5px -5px 10px floralwhite;, 5px 5px 10px #fff;*/
+  width: 15%; /* Distribute menu items equally */
+  border-radius: 8px;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-image: url("https://getwallpapers.com/wallpaper/full/6/c/a/630146.jpg");
+  border-radius: 10px;
+}
+
+.menu .sousmenu {
+  font-weight: 800;
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.menu .sousmenu li {
+  float: none;
+  width: 100%;
+}
+
+.menu .sousmenu li a {
+  padding: 7px;
+  text-align: center;
+}
+
+.menu li:hover .sousmenu {
+  display: block;
+  width: 15%;
+}
 
 .form-container {
-    text-align: center;
-    margin: 50px auto;
-    max-width: 600px;
-    background-color: #fff;
-    padding: 0.1px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 50px auto;
+  max-width: 600px;
+  /*background-color: #fff;*/
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 0.1px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px darkviolet;
 }
 
 form {
@@ -96,12 +110,13 @@ input,textarea {
     width: 100%;
     outline: none;
     box-sizing: border-box;
-    border: 2px solid orangered;
+    border: 2px solid darkviolet;
     border-radius: 5px;
 }
 
 button {
-    background-color:#11388b;
+    /*background-color:darkviolet;*/
+    background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -111,16 +126,22 @@ button {
 }
 
 button:hover {
-    background-color: orangered;
+    /*background-color: royalblue;*/
+    background-image: url("https://getwallpapers.com/wallpaper/full/6/c/a/630146.jpg");
 }
 
 .footer {
-    background-color: orangered;
-    color: #fff;
-    text-align: center;
-    padding: 1%;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  
+  /*background-color: darkviolet;*/
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  /*color: #fff;*/
+  text-align: center;
+  padding: 1%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 150%;
+  color: black;
+}
