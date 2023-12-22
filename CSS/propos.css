@@ -4,12 +4,11 @@ body {
   font: 12px Arial;
   width: 100%;
   overflow-x: hidden; 
-  /*background: black;*/
-  margin-right: 0px;
-  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background: whitesmoke;
+  /*background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top left;*/
 }
    
 header {
@@ -88,29 +87,31 @@ header {
   
   
 .ekip{
-  float: right;
-  border-radius: 50%;
-  margin:0 30% 50% 0;
-  shape-outside: content-box;
+  float: left;
+  border-radius: 10%;
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*shape-outside: content-box;*/
 }
 
 .textEkip{
   text-align: justify;
-  margin-left: 2%;
-  margin-right: 2%;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  margin-left: 12%;
+  margin-right: 12%;
+  font-family: Bahnschrift, sans-serif;
   font-size: 155%;
-  color: #fff;
+  color: black;
   line-height: 1.5;
 }
 
 .team{
   text-align: justify;
-  margin-left: 2%;
-  margin-right: 2%;
-  font-family: 'Arial', 'Helvetica', sans-serif;
+  margin-left: 12%;
+  margin-right: 12%;
+  font-family: Bahnschrift, sans-serif;
   font-size: 155%;
-  color: #fff;
+  color: black;
   line-height: 1.7;
   border-color: beige;
 }
