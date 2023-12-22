@@ -4,8 +4,8 @@ body {
   font: 12px Arial;
   width: 100%;
   overflow-x: hidden; 
-  background: black;
-  margin-right: 0px;
+  background: whitesmoke;
+  margin-bottom: 50px;
 }
    
 header {
@@ -80,6 +80,17 @@ header {
 .menu li:hover .sousmenu {
   display: block;
   width: 15%;
+}
+
+.geopolitique {
+  font-family: Bahnschrift, sans-serif;
+  font-size: 18px;
+  color: black;
+  margin: 50px 15% 15%;
+}
+
+.graph {
+  margin-left: calc((100% - 460px)/2);
 }
 
 .footer {

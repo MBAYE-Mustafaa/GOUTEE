@@ -5,6 +5,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   background: whitesmoke;
+  margin-bottom: 50px;
 }
    
 header {
@@ -86,7 +87,6 @@ header {
   font-size: 18px;
   color: black;
   margin: 50px 15% 15%;
-  margin-bottom: 50px;
 }
 
 .graph {

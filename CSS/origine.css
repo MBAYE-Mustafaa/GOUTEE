@@ -4,13 +4,8 @@ body {
   font: 12px Arial;
   width: 100%;
   overflow-x: hidden; 
-  /*background: black;*/
-  margin-right: 0px;
   background-color: whitesmoke;
-  /*background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: top left;*/
+  margin-bottom: 50px;
 }
    
 header {

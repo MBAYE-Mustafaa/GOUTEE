@@ -5,10 +5,7 @@ body {
   width: 100%;
   overflow-x: hidden; 
   background: whitesmoke;
-  /*background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: top left;*/
+  margin-bottom: 50px;
 }
    
 header {
@@ -23,7 +20,6 @@ header {
 .menu {
   font-family: Garamond, sans-serif;
   font-size: 150%;
-  /*font-weight: bold;*/
   list-style: none;
   padding: 12px;
   margin: 0;
@@ -114,6 +110,7 @@ header {
   color: black;
   line-height: 1.7;
   border-color: beige;
+  margin-bottom: 10px;
 }
 
 .footer {
