@@ -6,10 +6,11 @@ body {
   overflow-x: hidden; 
   /*background: black;*/
   margin-right: 0px;
-  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-color: whitesmoke;
+  /*background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: top left;*/
 }
    
 header {
@@ -87,12 +88,11 @@ header {
 }
   
 .origine{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Bahnschrift, serif;
   text-align: justify;
   font-size: 150%;
-  margin: 1% 1.5% 1.5% ;
-  color: antiquewhite;
-  /*background-color: orangered;*/
+  margin: 2% 15% 15% ;
+  color: black;
 }
 
 .footer {
