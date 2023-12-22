@@ -1,77 +1,210 @@
 body {
-    margin: 0px;
-    padding: 0%;
-    font: 12px Arial;
-    width: 100%;
-    overflow-x: hidden; 
-    background:grey;
-    margin-right: 0px;
-  }
+  margin: 0px;
+  padding: 0%;
+  font: 12px Arial;
+  width: 100%;
+  overflow-x: hidden; 
+  background: black;
+  margin-right: 0px;
+}
+   
+header {
+  font-family: Garamond, sans-serif;
+  /*width: 100%;*/
+  padding: 45px;
+  text-align: center;
+  color: floralwhite;
+  font-size: 200%;
+}
+
+.menu {
+  font-family: Garamond, sans-serif;
+  font-size: 150%;
+  /*font-weight: bold;*/
+  list-style: none;
+  padding: 12px;
+  margin: 0;
+  /*background-color: black;*/
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px;
+  margin-left: -0.7%;
+  margin-right: auto;
+  width: 100%;
+}
+
+.menu li {
+  /*box-shadow: -5px -5px 10px floralwhite;, 5px 5px 10px #fff;*/
+  width: 15%; /* Distribute menu items equally */
+  border-radius: 8px;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-image: url("https://getwallpapers.com/wallpaper/full/6/c/a/630146.jpg");
+  border-radius: 10px;
+}
+
+.menu .sousmenu {
+  font-weight: 800;
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.menu .sousmenu li {
+  float: none;
+  width: 100%;
+}
+
+.menu .sousmenu li a {
+  padding: 7px;
+  text-align: center;
+}
+
+.menu li:hover .sousmenu {
+  display: block;
+  width: 15%;
+}
+
+.footer {
+  /*background-color: darkviolet;*/
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  /*color: #fff;*/
+  text-align: center;
+  padding: 1%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 150%;
+  color: black;
+}
   
-  header {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 100%;
-    padding: 45px;
-    text-align: center;
-    color: orangered;
-    font-size: 250%;
-  }
-  
-  .menu {
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    font-size: 120%;
-    font-weight: bold;
-    list-style: none;
-    padding: 12px;
-    margin: 0;
-    background-color: #11388b;
+  .imgA{
     display: flex;
-    justify-content: space-around;
-    border-radius: 0px;
-    margin-left: -0.7%;
-    margin-right: auto;
-    width: 100%;
+    justify-content: center;
   }
-  
-  .menu li {
-    box-shadow: -5px -5px 10px orangered, 5px 5px 10px #9eb8c1;
-    width: 15%; /* Distribute menu items equally */
-    border-radius: 8px;
+  .imgB{
+    display: flex;
+    justify-content: center;
   }
-  
-  .menu li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 14px 14px;
-    text-decoration: none;
+  .finance1{
+    text-align: justify;
   }
-  
-  .menu li a:hover {
-    background-color: orangered;
-    border-radius: 10px;
+  .finance2{
+    text-align: justify;
   }
-  
-  .menu .sousmenu {
-    font-weight: 800;
-    list-style-type: circle;
-    display: none;
-    position: absolute;
-  }
-  
-  .menu .sousmenu li {
-    float: none;
-    width: 100%;
-  }
-  
-  .menu .sousmenu li a {
-    padding: 7px;
-    text-align: center;
-  }
-  
-  .menu li:hover .sousmenu {
-    display: block;
-    width: 15%;
-  }
-  
-  
+
+
+  /*Carroussel*/
+  .slider_focus{
+
+    max-width: 600px;
+    margin: 2rem auto;
+    
+        }	
+        
+    .slider_focus ul{
+    margin: 0;
+    /*reset ul*/
+    padding: 0;
+    list-style-type:none;
+    /*reset ul*/
+    display:flex;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+    aspect-ratio:3/2;gap:.5rem;
+    
+        
+    }
+    
+    
+    .slider_focus ul li{
+        
+    align-self:flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:.5rem;
+    height:4rem;
+    width: 4rem;
+    
+    }
+        
+    .slider_focus ul li button	
+        
+    { 
+    all: unset;
+    padding:0;
+    border:0;
+    cursor: pointer; 
+    }
+    
+    .slider_focus ul li button img{
+        
+    border-radius: 50%;
+    border:2px solid white; 
+    width:4rem;
+    height:4rem;object-fit: cover
+    
+        }
+    
+        
+    .slider_focus ul li span img{
+        
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    transform:translateX(-100%);
+    z-index:-1;
+    opacity:0;
+    will-change: transform,opacity;
+    transition:transform .6s,opacity .6s
+        
+        }
+    
+    .slider_focus ul:not(:focus-within) li:first-child span img,
+    .slider_focus ul li:focus-within span img{
+        
+    transform:translateX(0%);
+    opacity:1
+        
+        }
+    
+    
+    .slider_focus ul li:focus-within{
+    
+    outline:2px solid black;
+    border-radius: 50%
+    
+    }
+        
+    
+    .slider_focus ul:not(:focus-within) li:first-child button img,	
+    .slider_focus ul li:focus-within button img{
+    
+    opacity: .4
+    
+    }
