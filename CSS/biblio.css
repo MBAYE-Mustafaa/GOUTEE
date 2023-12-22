@@ -1,100 +1,100 @@
 body {
-    margin: 0px;
-    padding: 0%;
-    font: 12px Arial;
-    width: 100%;
-    overflow-x: hidden; 
-    background: black;
-    margin-right: 0px;
-  }
-     
-  header {
-    font-family: Garamond, sans-serif;
-    /*width: 100%;*/
-    padding: 45px;
-    text-align: center;
-    color: floralwhite;
-    font-size: 200%;
-  }
-  
-  .menu {
-    font-family: Garamond, sans-serif;
-    font-size: 150%;
-    /*font-weight: bold;*/
-    list-style: none;
-    padding: 12px;
-    margin: 0;
-    /*background-color: black;*/
-    background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top left;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 0px;
-    margin-left: -0.7%;
-    margin-right: auto;
-    width: 100%;
-  }
-  
-  .menu li {
-    /*box-shadow: -5px -5px 10px floralwhite;, 5px 5px 10px #fff;*/
-    width: 15%; /* Distribute menu items equally */
-    border-radius: 8px;
-  }
-  
-  .menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 14px;
-    text-decoration: none;
-  }
-  
-  .menu li a:hover {
-    background-image: url("https://getwallpapers.com/wallpaper/full/6/c/a/630146.jpg");
-    border-radius: 10px;
-  }
-  
-  .menu .sousmenu {
-    font-weight: 800;
-    list-style-type: none;
-    display: none;
-    position: absolute;
-    background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top left;
-  }
-  
-  .menu .sousmenu li {
-    float: none;
-    width: 100%;
-  }
-  
-  .menu .sousmenu li a {
-    padding: 7px;
-    text-align: center;
-  }
-  
-  .menu li:hover .sousmenu {
-    display: block;
-    width: 15%;
-  }
+  margin: 0px;
+  padding: 0%;
+  font: 12px Arial;
+  width: 100%;
+  overflow-x: hidden; 
+  background: black;
+  margin-right: 0px;
+}
+   
+header {
+  font-family: Garamond, sans-serif;
+  /*width: 100%;*/
+  padding: 45px;
+  text-align: center;
+  color: floralwhite;
+  font-size: 200%;
+}
+
+.menu {
+  font-family: Garamond, sans-serif;
+  font-size: 150%;
+  /*font-weight: bold;*/
+  list-style: none;
+  padding: 12px;
+  margin: 0;
+  /*background-color: black;*/
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 0px;
+  margin-left: -0.7%;
+  margin-right: auto;
+  width: 100%;
+}
+
+.menu li {
+  /*box-shadow: -5px -5px 10px floralwhite;, 5px 5px 10px #fff;*/
+  width: 15%; /* Distribute menu items equally */
+  border-radius: 8px;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-image: url("https://getwallpapers.com/wallpaper/full/6/c/a/630146.jpg");
+  border-radius: 10px;
+}
+
+.menu .sousmenu {
+  font-weight: 800;
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.menu .sousmenu li {
+  float: none;
+  width: 100%;
+}
+
+.menu .sousmenu li a {
+  padding: 7px;
+  text-align: center;
+}
+
+.menu li:hover .sousmenu {
+  display: block;
+  width: 15%;
+}
   
   .footer {
-    /*background-color: darkviolet;*/
-    background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: top left;
-    /*color: #fff;*/
-    text-align: center;
-    padding: 1%;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    font-size: 150%;
-    color: black;
-  }
-  
+  /*background-color: darkviolet;*/
+  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  /*color: #fff;*/
+  text-align: center;
+  padding: 1%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 150%;
+  color: black;
+}
