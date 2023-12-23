@@ -3,8 +3,8 @@ body {
   padding: 0%;
   font: 12px Arial;
   width: 100%;
-  overflow-x: hidden;
-  background: whitesmoke;
+  overflow-x: hidden; 
+  background: black;
   margin-bottom: 50px;
 }
    
@@ -17,9 +17,9 @@ header {
   font-size: 200%;
 }
 
-.menu {
+.menuu {
   font-family: Garamond, sans-serif;
-  font-size: 150%;
+  font-size: 100%;
   /*font-weight: bold;*/
   list-style: none;
   padding: 12px;
@@ -37,13 +37,13 @@ header {
   width: 100%;
 }
 
-.menu li {
+.menuu li {
   /*box-shadow: -5px -5px 10px floralwhite;, 5px 5px 10px #fff;*/
   width: 15%; /* Distribute menu items equally */
   border-radius: 8px;
 }
 
-.menu li a {
+.menuu li a {
   display: block;
   color: white;
   text-align: center;
@@ -51,12 +51,12 @@ header {
   text-decoration: none;
 }
 
-.menu li a:hover {
+.menuu li a:hover {
   background-image: url("https://getwallpapers.com/wallpaper/full/6/c/a/630146.jpg");
   border-radius: 10px;
 }
 
-.menu .sousmenu {
+.menuu .sousmenuu {
   font-weight: 800;
   list-style-type: none;
   display: none;
@@ -67,41 +67,22 @@ header {
   background-position: top left;
 }
 
-.menu .sousmenu li {
+.menuu .sousmenuu li {
   float: none;
   width: 100%;
 }
 
-.menu .sousmenu li a {
+.menuu .sousmenuu li a {
   padding: 7px;
   text-align: center;
 }
 
-.menu li:hover .sousmenu {
+.menuu li:hover .sousmenuu {
   display: block;
   width: 15%;
 }
 
-.Radbou {
-  font-family: Bahnschrift, sans-serif;
-  font-size: 18px;
-  color: black;
-  margin: 20px 15% 15%;
-  margin-bottom: 10px;
-}
-
-.graph {
-  margin-left: calc((100% - 614px)/2);
-}
-
-.Tabatatata {
-  font-family: Bahnschrift, sans-serif;
-  font-size: 18px;
-  color: black;
-  margin: 0px 15% 15%;
-}
-
-.footer {
+.footerr {
   /*background-color: darkviolet;*/
   background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
   background-attachment: fixed;
