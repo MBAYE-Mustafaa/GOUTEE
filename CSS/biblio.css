@@ -22,7 +22,7 @@ header {
   list-style: none;
   padding: 12px;
   margin: 0;
-  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-image: url("../assets/Rose.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top left;
@@ -49,7 +49,7 @@ header {
 }
 
 .menu li a:hover {
-  background-image: url("https://getwallpapers.com/wallpaper/full/6/c/a/630146.jpg");
+  background-image: url("../assets/bleu.jpg");
   border-radius: 10px;
 }
 
@@ -89,7 +89,7 @@ header {
   
   .footer {
   /*background-color: darkviolet;*/
-  background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
+  background-image: url("../assets/Rose.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: top left;
