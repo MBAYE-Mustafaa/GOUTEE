@@ -4,8 +4,7 @@ body {
   font: 12px Arial;
   width: 100%;
   overflow-x: hidden; 
-  background: black;
-  margin-right: 0px;
+  background: whitesmoke;
 }
    
 header {
@@ -20,11 +19,9 @@ header {
 .menu {
   font-family: Garamond, sans-serif;
   font-size: 150%;
-  /*font-weight: bold;*/
   list-style: none;
   padding: 12px;
   margin: 0;
-  /*background-color: black;*/
   background-image: url("https://cdn.wallpapersafari.com/30/16/N0iFgm.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -81,6 +78,13 @@ header {
 .menu li:hover .sousmenu {
   display: block;
   width: 15%;
+}
+
+.bibliographie {
+  font-family: Bahnschrift, sans-serif;
+  font-size: 18px;
+  color: black;
+  margin: 0px 15% 15%;
 }
   
   .footer {
